@@ -1,0 +1,26 @@
+{
+  "jack": {
+    "street": "123 Street St.",
+    "city": "Sometown",
+    "state": "",
+    "zipcode": "43215"
+  },
+  "jill": {
+    "street": "234 Other St",
+    "city": "Townville",
+    "state": "",
+    "zipcode": "32145"
+  },
+  "alice": {
+    "street": "456 New St",
+    "city": "Newtown",
+    "state": "CA",
+    "zipcode": "12345"
+  },
+  "ravi": {
+    "street": "456 New St",
+    "city": "Newtown",
+    "state": "CA",
+    "zipcode": "12345"
+  }
+}

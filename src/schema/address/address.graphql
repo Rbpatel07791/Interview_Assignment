@@ -1,0 +1,26 @@
+type Address { 
+  street: String
+  city: String
+  state: String
+  zipcode: String
+}
+
+input AddressInput {
+  street: String
+  city: String
+  state: String
+  zipcode: String
+}
+
+type MutationResponse {
+  success: Boolean!
+  message: String
+}
+
+type Query {
+  address(username: String!): Address
+}
+
+type Mutation {
+  createAddress(username: String!, address: AddressInput!): MutationResponse
+}
